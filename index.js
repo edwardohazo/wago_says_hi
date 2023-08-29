@@ -3,4 +3,8 @@ const printMsg = function () {
 	console.log("Incrementing patch to 1.0.1 version");
 }
 
-module.exports = {printMsg};
+const secondPrintMsg = function () {
+	console.log("Incrementing minor to 1.1.0 version");
+}
+
+module.exports = {printMsg, secondPrintMsg};
