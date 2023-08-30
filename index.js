@@ -7,4 +7,6 @@ const secondPrintMsg = function () {
 	console.log("Incrementing minor to 1.1.0 version");
 }
 
+console.log("Wago is ready to say hi!");
+
 module.exports = {printMsg, secondPrintMsg};
